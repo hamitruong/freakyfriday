@@ -1,0 +1,216 @@
+*
+{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    color: black;
+}
+
+
+
+.containerHeader
+{
+    width:100%;
+    height:80px;
+    padding:25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    background-color:white;
+}
+
+.background-image
+{
+    height:700px;
+    background-image: url("../barcode.jpg");
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.mainlogo
+{
+    font-size: 50px;
+    padding-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-image
+{   
+    border:1px solid rgba(255, 255, 255, 0.692);
+    color: rgba(0, 0, 0, 0.89);
+    font-size: 70px;
+    padding:15px;
+    margin:10px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.logo
+{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    
+}
+
+.undertekst
+{
+    margin-top: 5px;
+    padding: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.tekst2
+{
+
+    font-size: 25px;
+    margin-top: 5px;
+    padding: 20px;
+    line-height: 40px;
+    text-align: center;
+    
+}
+
+.box-opera
+{
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+
+.bilde-opera
+{
+    width: 50%;
+    padding: 20px;
+}
+
+.info-operataket
+{
+    width: 50%;
+    padding:20px;
+    line-height: 30px;
+}
+
+.box-akerbrygge
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    
+}
+
+.Akerbrygge
+{
+    width: 50%;
+    line-height: 30px;
+    margin-top: 25px;
+   
+}
+
+.bilde-akerbrygge
+{
+    width: 50%;
+    margin-top: 25px;
+    padding: 20px;
+}
+
+.box-holmenkollen
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+
+.Holmenkollen
+{
+    width: 50%;
+    padding:20px;
+    line-height: 30px;
+    margin-top: 25px;
+}
+
+.bilde-holmenkollen
+{
+    width: 50%;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+.containerNavigasjonsBar {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+.bar1, .bar2, .bar3 {
+    width: 40px;
+    height: 6px;
+    background-color: black;
+    margin: 8px 0;
+    transition: 0.8s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.dropdownmeny {
+  margin-top: -15px;
+    display: none;
+    background-color: white;
+    opacity: .85;
+}
+
+.aktiv {
+      display: block;
+}
+
+.dropdownmeny li {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+    margin: 15px auto;
+   font-family:  Arial, Helvetica, sans-serif;;
+}
+  
+.dropdownmeny li a {
+  display: block;
+  color: black;
+  text-align: right;
+  padding: 5px 40px;
+  text-decoration: none;
+}
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -80px;
+  visibility: hidden;
+}
+  
+ .backtotop
+ {
+    margin: 40px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;  
+ }
+
+ 
